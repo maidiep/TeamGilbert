@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#box1 {
+    height: 95vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=249309033a3b9c3563ac80c06364d31c&auto=format&fit=crop&w=1650&q=80);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    opacity: .75;
+
+}
+
+#box2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/burger.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    opacity: .75;
+
+
+}
+
+#box3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/beer.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    opacity: .75;
+}
+
+#box4 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/tomato.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    opacity: .75;
+}
+
+.content {
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 75px !important;
+    color:white !important;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
