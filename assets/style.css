@@ -6,7 +6,7 @@ body {
 #box1 {
     height: 95vh;
     width: 100%;
-    background-image: url(../assets/images/cupcake8.jpg);
+    background-image: url(../assets/images/ajak1.png);
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -36,15 +36,6 @@ body {
     /* opacity: .75; */
 }
 
-#box4 {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../assets/images/cupcake7.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-    /* opacity: .75; */
-}
 
 .content {
     margin: 0;
