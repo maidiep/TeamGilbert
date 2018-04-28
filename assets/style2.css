@@ -1,0 +1,44 @@
+
+.content {
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 75px !important;
+    text-align: center;
+   
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+
+
+}
+ 
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item{
+    max-height: 500px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
+}
+
+.p {
+    align-content: auto
+}
+
+#map {
+    height: 400px;
+    width: 400px;
+    align-content: auto;
+}
