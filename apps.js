@@ -29,31 +29,6 @@ var resource = {
            },
            "description":"We are organizing events",
            "location":"US",
-        //    "attendees":[
-        //    {
-        //            "email":"attendee1@gmail.com",
-        //            "displayName":"Jhon",
-        //            "organizer":true,
-        //            "self":false,
-        //            "resource":false,
-        //            "optional":false,
-        //            "responseStatus":"needsAction",
-        //            "comment":"This is my demo event",
-        //            "additionalGuests":3
-                   
-        //    },
-        //    {    
-        //        "email":"attendee2@gmail.com",
-        //            "displayName":"Marry",
-        //            "organizer":true,
-        //            "self":false,
-        //            "resource":false,
-        //            "optional":false,
-        //            "responseStatus":"needsAction",
-        //            "comment":"This is an official event",
-        //            "additionalGuests":3
-        //    }
-        //    ],
        };
 
 function makeApiCall(){
