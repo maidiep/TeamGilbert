@@ -20,70 +20,141 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <!-- Collection of nav links and other content for toggling -->
-                <div id="navbarCollapse" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Cupcakes</a></li>
-                        <li><a href="#">About Us</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                           <li><button type="button" class="btn btn-default btn-sm">
-                                    <span class="glyphicon glyphicon-shopping-cart"></span>Cart</button></li>
-                        <li><a href="#">Login</a></li>
-                    </ul>
-                </div>
+
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                         
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                             <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </button> <a class="navbar-brand" href="#"></a>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#">GALLERY</a>
+                            </li>
+                            <li>
+                                    <a href="#">LOCATION SCHEDULE</a>
+                                </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#">LOGIN</a>
+                            </li>
+                       
+                        </ul>
+                    </div>
+                    
+                </nav>
             </div>
-        </nav>
-   <br> <br>  
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    
+                </div>
 
-   
-   
-   <!-- images for parallaz -->
-   <div id="box1">
-       <div class="content"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-       <h3>A BALANCED LIFE IS HAVING A CUPCAKE IN EACH HAND</h3>
-       </div>
-   </div>
+                <div class="bs-example">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>   
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/images/cupcake2_picmonkeyed.JPG" alt="First Slide">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/images/cupcake7_picmonkeyed.JPG" alt="Second Slide">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/images/cupcake8 2.JPG" alt="Third Slide">
+                                </div>
+                            </div>
+                            <!-- Carousel controls -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                    
+                <!-- embedded Google Calendar -->
+                <button id="btnCreateEvents" class="btn btn-primary" onclick="makeApiCall();">
+                    Create Events</button>  
 
-   <div id="box2"> 
-       <div class="content">
-       <h1>CUPCAKES</h1> <br>
-       <p>vanillaJavaScript <br/>
-           NAVelOrange <br/>
-           rainbowUnicode <br/>
-            caramelCase<br/>
-       </p>
-       </div>
-   </div>
-  
-   <div id="box3" "aboutUs">
-       <div class="content">
-       <h1>ABOUT US</h1> 
-       <p>320 East 9th Street <br/>
-           Charlotte, NC 28217 <br/>
-           (888) 555-5555
-       </p>   
-       </div>
-   </div>
+<div id="divifm">
+                    <iframe id="ifmCalendar" 
+
+                    src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e92tdjg4rf053q68upvbcqbrcc%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York"
+
+                        style="border-width: 0" width="950" 
+
+                        height="520" frameborder="0" scrolling="no">
+                    </iframe>
+                </div>
 
 
 
 
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <strong>ABOUT US</strong></p>
+                    <p>Own and operated by four friends: AJ, Jessica, Adam and Kacie. </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <strong>WHERE ARE WE?
+                    </strong></p>
 
+                    <div id="map"></div>
+    <script>
+        function initMap() {
+            // Map options
+            var options = {
+                zoom:12,
+                center:{lat:35.2271,lng:-80.8431}
+            }
+            // New map
+            var map = new
+            google.maps.Map(document.getElementById("map"), options);
+            // Add marker
+            var marker = new google.maps.Marker({
+                position:{lat:35.228460,lng:-80.835088},
+                map:map
+            });
+            var infoWindow = new google.maps.InfoWindow({
+                content:"<h1>AJAK's Bake Shop</h1>"
+            });
+            marker.addListener("click", function(){
+                infoWindow.open(map, marker);
+            });
+        }
+    </script>
+    <script asynch defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLX57733jcvaZ-j-1_wZjPzMRhw01zQqY&callback=initMap">
+    </script>
 
+            </div>
+        </div>
+    </div>
     <script src="assets/apps.js"></script>
 </body>
 </html>
