@@ -9,17 +9,20 @@
 h1 {
     font-size: 75px !important;
     text-align: center;
+    color: white;
    
 }
 
 p {
     font-size: 30px;
     text-align: center;
+    color: white;
 }
  
 
 .p {
     align-content: auto
+
 }
 
 #map {
