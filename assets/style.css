@@ -19,19 +19,6 @@ p {
 
 }
  
-.carousel{
-    background: #2f4357;
-    margin-top: 20px;
-}
-.carousel .item{
-    max-height: 500px; /* Prevent carousel from being distorted if for some reason image doesn't load */
-}
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
-}
-.bs-example{
-	margin: 20px;
-}
 
 .p {
     align-content: auto
@@ -43,13 +30,6 @@ p {
     align-content: auto;
 }
 
-.img {
-    height: 200px !important;
-    width: 200px !important;
-}
-
-
-.jumbotron {
-    background-image: url ("assets/images/img1.png");
-    background-size: cover;
+header {
+    background-image: url ("../images/logo.png");
 }
