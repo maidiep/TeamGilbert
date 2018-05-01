@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
 .content {
     margin: 0;
@@ -36,6 +43,15 @@ p {
     display: block;
 }
 
+#box2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/logo3.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
 #box3 {
     height: 100vh;
     width: 100%;
@@ -57,7 +73,7 @@ p {
 #box5 {
     height: 100vh;
     width: 100%;
-    background-image: url(../assets/images/sprinkles.jpg);
+    background-image: url();
     background-size: cover;
     display: table;
     background-attachment: fixed;

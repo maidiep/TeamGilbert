@@ -22,12 +22,12 @@
 </head>
 
 <body>
-
+    
     <!-- navbar -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <nav class="navbar navbar-default" role="navigation">
+                <nav class="navbar navbar-default navbar-fixed-top">
                     <div class="navbar-header">
 
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -63,10 +63,16 @@
     </div>
 
          <!-- Banner/Logo -->
-        <div class="banner">
+         <div id="box2">
+                <div class="content">
+                </div>
+                </div>
+
+
+        <!-- <div class="banner">
             <img class="banner-image" src = "assets/images/logo2.png">
             </div>
-        </div>
+        </div> -->
 
         <!-- About Us -->
         <div id="box3">
@@ -77,18 +83,6 @@
                 </div>
                 </div>
 
-
-
-
-
-        <!-- <div class="row">
-            <div class="col-md-12">
-                <p>
-                    <strong>ABOUT US</strong>
-                </p>
-                <p>Own and operated by four friends: AJ, Jessica, Adam and Kacie. They met during a coding bootcamp. What started out as a group project turned into a successful business venture.</p>
-            </div>
-            </div> -->
 
         <!-- Google Calendar -->
         <div id="box4">
@@ -101,64 +95,43 @@
             </div>
             </div>
 
-           <!-- <div class="row">
-            <div class="col-md-12">
-            <div id="divifm">
-                <iframe id="ifmCalendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=e92tdjg4rf053q68upvbcqbrcc%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York"
-                    style="border-width: 0" width="950" height="520" frameborder="0" scrolling="no">
-                </iframe>
-            </div>
-        </div>
-        </div> -->
 
         <!-- Google Map -->
-        <div id="box5">
-                <div class="content">
-                <h1>LOCATE US</h1>
+        <div id = "box5">
+            <div id ="map">
+                <div class = "content" >
+                        <h1>WHERE WE ARE</h1>
                 </div>
-                </div>
+        </div>
+        </div>
 
-
-
-
-
-        <!-- <div class="row">
-        <div class="col-md-12">
-            <h1>WHERE ARE WE?
-            </h1>
-            </div>
-            </div> -->
-        
-            <!-- map -->
-            <div id="map"></div>
-            <script>
+        <script>
                 function initMap() {
                     // Map options
                     var options = {
-                        zoom: 12,
-                        center: { lat: 35.2271, lng: -80.8431 }
+                        zoom:12,
+                        center:{lat:35.2271,lng:-80.8431}
                     }
                     // New map
                     var map = new
-                        google.maps.Map(document.getElementById("map"), options);
+                    google.maps.Map(document.getElementById("map"), options);
                     // Add marker
                     var marker = new google.maps.Marker({
-                        position: { lat: 35.228460, lng: -80.835088 },
-                        map: map
+                        position:{lat:35.228460,lng:-80.835088},
+                        map:map
                     });
                     var infoWindow = new google.maps.InfoWindow({
-                        content: "<h1>AJAK's Bake Shop</h1>"
+                        content:"<h1>AJAK's Bake Shop</h1>"
                     });
-                    marker.addListener("click", function () {
+                    marker.addListener("click", function(){
                         infoWindow.open(map, marker);
                     });
                 }
             </script>
-            <script asynch defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLX57733jcvaZ-j-1_wZjPzMRhw01zQqY&callback=initMap">
+            <script asynch defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLX57733jcvaZ-j-1_wZjPzMRhw01zQqY&callback=initMap">
             </script>
 
-        </div>
-    </div>
     <script src="assets/apps.js"></script>
 </body>
 
