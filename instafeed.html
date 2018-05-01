@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>InstaFeed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type="text/javascript" src="./instafeed.min.js"></script>
+  
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'user',
+            userId: 'kacieskonfections',
+
+            // get: 'tagged',
+            // tagName: 'awesome',
+            accessToken: '7640104708.a669768.355515f5a5984477a898ce3e23e202bb'
+        });
+        feed.run();
+    </script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="insta-wrap">
+            <h1>Instagram Feed</h1>
+            <div id="instafeed"></div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

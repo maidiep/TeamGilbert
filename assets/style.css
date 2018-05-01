@@ -72,8 +72,7 @@ p {
 #box4 {
     height: 100vh;
     width: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/22/22/47/black-1851022_1280.jpg");
-    /* background-image: url(../assets/images/img8.JPG); */
+    background-image: url("../assets/images/sprinkles2.jpg");
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -87,5 +86,7 @@ p {
     display: table;
     background-attachment: fixed;
 }
-
+ .nav navbar-nav navbar-right {
+     padding-right: 45px !important;
+ }
 
