@@ -38,6 +38,7 @@ p {
    height: 500px;
    width: 800px;
    margin: auto;
+   border: solid black;
 
 }
 
@@ -77,4 +78,8 @@ p {
     background-size: cover;
     display: table;
     background-attachment: fixed;
+}
+
+#ifmCalendar {
+    border: solid black;
 }
