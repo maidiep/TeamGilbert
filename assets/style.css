@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-
-
-
 .content {
     margin: 0;
     text-align: center;
@@ -16,7 +13,12 @@
 h1 {
     font-size: 75px !important;
     text-align: center;
-    color: white;
+    color: white !important;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
    
 }
 
@@ -33,8 +35,10 @@ p {
  
 
 #map {
-   height: 800px;
-   width: 100%
+   height: 400px;
+   width: 400px;
+   margin: auto;
+
 }
 
 
@@ -68,7 +72,7 @@ p {
 #box5 {
     height: 100vh;
     width: 100%;
-    background-image: url();
+    background-image: url(../assets/images/foodtruck.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
