@@ -31,8 +31,7 @@ h1#banner {
 
 p {
     font-family: 'Caveat', cursive;
-
-    font-size: 30px;
+    font-size: 40px !important;
     text-align: center;
     color: white;
     text-shadow:
