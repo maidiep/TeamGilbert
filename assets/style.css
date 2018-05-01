@@ -4,6 +4,7 @@
 }
 
 .content {
+    font-family: 'Titan One', cursive;
     margin: 0;
     text-align: center;
     display: table-cell;
@@ -29,6 +30,8 @@ h1#banner {
 
 
 p {
+    font-family: 'Caveat', cursive;
+
     font-size: 30px;
     text-align: center;
     color: white;
@@ -85,4 +88,5 @@ p {
     display: table;
     background-attachment: fixed;
 }
+
 
