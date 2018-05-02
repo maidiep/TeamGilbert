@@ -42,7 +42,7 @@ p {
 }
  
 #scroll {
-    color: #ec6eae;
+    color: black;
 }
 
 #map {
@@ -105,4 +105,20 @@ p {
 
 .thumbnail {
     border: solid black;
+}
+
+.loginPage {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba( 0,0,0,0.6)),url(../assets/images/plainlogo.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
 }
