@@ -41,13 +41,15 @@ p {
     1px 1px 0 #000;
 }
  
+#scroll {
+    color: #ec6eae;
+}
 
 #map {
    height: 500px;
    width: 800px;
    margin: auto;
    border: solid black;
-
 }
 
 
@@ -86,13 +88,10 @@ p {
     display: table;
     background-attachment: fixed;
 }
- .nav navbar-nav navbar-right {
-     padding-right: 45px !important;
- }
 
  #insta-wrap img {
-     border: solid white;
-     margin: 15px;
+     border: solid black;
+     margin: 10px;
  }
 
 #box1 {
@@ -102,4 +101,8 @@ p {
     background-size: cover;
     display: table;
     background-attachment: fixed;
+}
+
+.thumbnail {
+    border: solid black;
 }
