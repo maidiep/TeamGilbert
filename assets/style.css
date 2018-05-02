@@ -72,7 +72,7 @@ p {
 #box4 {
     height: 100vh;
     width: 100%;
-    background-image: url("../assets/images/sprinkles2.jpg");
+    background-image: url("../assets/images/cupcake1.JPG");
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -90,3 +90,8 @@ p {
      padding-right: 45px !important;
  }
 
+ #insta-wrap img {
+     padding: 10px;
+ }
+
+ 

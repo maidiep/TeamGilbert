@@ -5,16 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>InstaFeed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
     <script type="text/javascript" src="./instafeed.min.js"></script>
   
     <script type="text/javascript">
         var feed = new Instafeed({
             get: 'tagged',
             tagName: 'ajaks',
-
-            // get: 'tagged',
-            // tagName: 'awesome',
             accessToken: '7640104708.a669768.355515f5a5984477a898ce3e23e202bb'
         });
         feed.run();
@@ -44,7 +41,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-
 <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -73,13 +69,14 @@
 </div>
 
 <body>
+ <div class="container">
     <div id="wrapper">
         <div id="insta-wrap">
             <h1>Instagram Feed</h1>
             <div id="instafeed"></div>
         </div>
 
-
+</div>
     </div>
     
 </body>
