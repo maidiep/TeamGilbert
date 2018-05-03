@@ -28,7 +28,10 @@ var config = {
     var userLast = $("#last-name-input").val().trim();
     var userEmail = $("#email-input").val().trim();
 
-    if (userFirst=="" || userLast=="" || userEmail=="") {
+
+
+    if (userFirst=="" || userLast=="" || !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(userEmail)))
+    {
         return false;
     } else {
 
@@ -57,5 +60,8 @@ var config = {
     $("#thankyou").show();
 
     }
+
+
   });
 
+ 
