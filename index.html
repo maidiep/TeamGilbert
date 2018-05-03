@@ -20,8 +20,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
-    </head>
+        <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">    </head>
 
 <body>
     
@@ -110,7 +109,7 @@
                         map:map
                     });
                     var infoWindow = new google.maps.InfoWindow({
-                        content:"<h1>AJAK's Bake Shop</h1>"
+                        content:"<h2>AJAK's Bake Shop</h2>"
                     });
                     marker.addListener("click", function(){
                         infoWindow.open(map, marker);
@@ -121,7 +120,7 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLX57733jcvaZ-j-1_wZjPzMRhw01zQqY&callback=initMap">
             </script>
 
-    <script src="assets/apps.js"></script>
+    <script src="./apps.js"></script>
 </body>
 
 </html>
