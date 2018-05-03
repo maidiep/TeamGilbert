@@ -99,7 +99,12 @@ a {
 
  #insta-wrap img {
      border: solid black;
-     margin: 8px;
+     margin: 5px;
+ }
+
+ #instafeed {
+     max-width: 900px;
+     margin: auto;
  }
 
 #box1 {

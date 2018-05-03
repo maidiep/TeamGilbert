@@ -9,7 +9,7 @@ var config = {
     apiKey: "AIzaSyB9Bbini1xCoCSVVCFe8IiibqekOJZ3eNI",
     authDomain: "teamprojectone-30a82.firebaseapp.com",
     databaseURL
-    : "https://teamprojectone-30a82.firebaseio.com",
+: "https://teamprojectone-30a82.firebaseio.com",
     projectId: "teamprojectone-30a82",
     storageBucket: "teamprojectone-30a82.appspot.com",
     messagingSenderId: "982341792660"
@@ -53,4 +53,5 @@ var config = {
     $("#thankyou").show();
   });
 
-  
+//  
+
