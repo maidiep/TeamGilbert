@@ -1,8 +1,15 @@
+
+$(document).ready(function () {
+    $(".form").show();
+     $("#thankyou").hide();
+  });
+
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyB9Bbini1xCoCSVVCFe8IiibqekOJZ3eNI",
     authDomain: "teamprojectone-30a82.firebaseapp.com",
-    databaseURL: "https://teamprojectone-30a82.firebaseio.com",
+    databaseURL
+    : "https://teamprojectone-30a82.firebaseio.com",
     projectId: "teamprojectone-30a82",
     storageBucket: "teamprojectone-30a82.appspot.com",
     messagingSenderId: "982341792660"
@@ -36,12 +43,14 @@ var config = {
     console.log(newUser.lastname);
     console.log(newUser.email);
 
-alert("New user subscribed.");
-
     // clears input boxes
     $("#first-name-input").val("");
     $("#last-name-input").val("");
     $("#email-input").val("");
 
-
+    // send user to homepage
+    $(".form").hide();
+    $("#thankyou").show();
   });
+
+  

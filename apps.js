@@ -43,8 +43,6 @@ gapi.client.load('calendar', 'v3', function () { // load the calendar api (versi
                });                
   })};
 
-////////////////////////////////////////////////////////////
-//firebase
 
 
   

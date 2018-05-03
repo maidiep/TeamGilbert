@@ -108,7 +108,7 @@ p {
 }
 
 .subscribePage {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba( 0,0,0,0.6)),url(../assets/images/plainlogo.png);
+    background-image: url(../assets/images/plainlogo.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -123,7 +123,7 @@ p {
 .form {
     position: relative;
     z-index: 1;
-    background: white;
+    background: lightgrey;
     max-width: 360px;
     margin: 0 auto 100px;
     padding: 45px;
@@ -132,7 +132,7 @@ p {
 
 .form input {
     outline: 1;
-    background:#a2cdb8;
+    background:white;
     width: 100%;
     border: 0;
     margin: 0 0 15px;
@@ -144,15 +144,19 @@ p {
 .form button {
     text-transform: uppercase;
     outline: 0;
-    background:grey;
+    background:#ec6eae;
     width: 100%;
     border: 0;
     padding: 15px;
-    color:lightgrey;
+    color: white;
     font-size: 14px;
     cursor: pointer;
 }
 
 .form button:hover,.form button:active {
-    background:#ec6eae;
+    background: black;
+}
+
+.message {
+    padding-top: 175px;
 }
