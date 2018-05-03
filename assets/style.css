@@ -23,6 +23,7 @@ h1 {
 }
 
 h1#banner {
+    font-family: 'Lilita One', cursive;
     font-size: 60px !important;
     text-align: center;
     color: black !important; 
@@ -39,6 +40,13 @@ p {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+a {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+
+
 }
  
 #scroll {
