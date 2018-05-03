@@ -1,4 +1,4 @@
-
+console.log("kacie");
 // Google api console clientID and apiKey 
 
 var clientId = '413861687921-hbe918pligkpjblpd16lntg8qm5oh0f7.apps.googleusercontent.com';
@@ -41,7 +41,7 @@ gapi.client.load('calendar', 'v3', function () { // load the calendar api (versi
 
                    "resource": resource 	// above resource will be passed here
                });                
-  })}
+  })};
 
 ////////////////////////////////////////////////////////////
 //firebase
@@ -64,7 +64,33 @@ gapi.client.load('calendar', 'v3', function () { // load the calendar api (versi
   $("#add-user").on("click", function(event) {
       event.preventDefault();
 
-    // get user input
-    var username = $("")
-  }
-)
+    // gets user input from input box
+    var userFirst = $("#first-name-input").val().trim();
+    var userLast = $("#last-name-input").val().trim();
+    var userEmail = $("#email-input").val().trim();
+
+    // creates local temporary object for holding data
+    var newUser = {
+        firstname: userFirst,
+        lastname: userLast,
+        email: userEmail,
+    };
+
+    // uploads user to database
+    database.ref().push(newUser);
+
+    //log to console
+    console.log(newUser.firstname);
+    console.log(newUser.lastname);
+    console.log(newUser.email);
+
+alert("New user subscribed.");
+
+    // clears input boxes
+    $("#first-name-input").val("");
+    $("#last-name-input").val("");
+    $("#email-input").val("");
+
+
+  });
+
