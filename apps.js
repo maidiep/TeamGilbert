@@ -1,4 +1,3 @@
-console.log("hi!");
 
 // Google api console clientID and apiKey 
 
@@ -62,4 +61,10 @@ gapi.client.load('calendar', 'v3', function () { // load the calendar api (versi
   var database = firebase.database();
 
   //button for adding user subscription
-  $("")
+  $("#add-user").on("click", function(event) {
+      event.preventDefault();
+
+    // get user input
+    var username = $("")
+  }
+)
