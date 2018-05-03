@@ -28,6 +28,10 @@ var config = {
     var userLast = $("#last-name-input").val().trim();
     var userEmail = $("#email-input").val().trim();
 
+    if (userFirst=="" || userLast=="" || userEmail=="") {
+        return false;
+    } else {
+
     // creates local temporary object for holding data
     var newUser = {
         firstname: userFirst,
@@ -51,7 +55,7 @@ var config = {
     // send user to homepage
     $(".form").hide();
     $("#thankyou").show();
-  });
 
-//  
+    }
+  });
 
