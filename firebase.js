@@ -28,12 +28,26 @@ var config = {
     var userLast = $("#last-name-input").val().trim();
     var userEmail = $("#email-input").val().trim();
 
+    if (userFirst=="") {
+        document.getElementById("first-name-input").style.background="yellow";
+    }
 
+    if (userLast=="") {
+        document.getElementById("last-name-input").style.background="yellow";
+    }
 
-    if (userFirst=="" || userLast=="" || !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(userEmail)))
-    {
-        return false;
+    if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(userEmail))) {
+        document.getElementById("last-name-input").style.background="yellow";
     } else {
+
+
+    // if (userFirst=="" || userLast=="" || !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(userEmail)))
+    // {
+    //    document.getElementById("first-name-input").style.background="yellow";
+    //    document.getElementById("last-name-input").style.background="yellow";
+    //    document.getElementById("email-input").style.background="yellow"; 
+    //     return false;
+    // } else {
 
     // creates local temporary object for holding data
     var newUser = {
