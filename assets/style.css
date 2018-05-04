@@ -176,3 +176,28 @@ a {
 .message {
     padding-top: 175px;
 }
+
+/* GALLERY FORM CONTROLS */
+.form-box {
+    text-align: center;
+    position: relative;
+    margin: 20px;
+    top: 53%;
+    right: 36%;
+    width: 40%;
+    display: none;
+    padding: 20px;
+}
+.quantity-input {
+    margin: 20px;
+}
+.order-receipt {
+    height: 400px;
+    padding: 20px;
+    width: 60%;
+    background-color: lightgrey;
+    float: right;
+    position: relative;
+    bottom: 51.5em;
+    opacity: 0;
+}
