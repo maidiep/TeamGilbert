@@ -29,15 +29,15 @@ var config = {
     var userEmail = $("#email-input").val().trim();
 
     if (userFirst=="") {
-        document.getElementById("first-name-input").style.background="yellow";
+        document.getElementById("first-name-input").style.background="#ddeee5";
     }
 
     if (userLast=="") {
-        document.getElementById("last-name-input").style.background="yellow";
+        document.getElementById("last-name-input").style.background="#ddeee5";
     }
 
     if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(userEmail))) {
-        document.getElementById("last-name-input").style.background="yellow";
+        document.getElementById("email-input").style.background="#ddeee5";
     } else {
 
 

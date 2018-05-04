@@ -97,6 +97,39 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- order form -->
+                    <div class="form-box">
+                            <form class="form">
+                                <input id="name-input" type="text" name="name" placeholder="Name...">
+                                <br><br>
+                                    vanillaJava
+                                    <input class="quantity-input" id="vanillaJava-amount" type="number" name="quantity" placeholder="How many?" min="0" max="20">
+                                <br>
+                                    caramelCase
+                                    <input class="quantity-input" id="caramelCase-amount" type="number" name="quantity" placeholder="How many?" min="0" max="20">
+                                <br>
+                                    cookiesAndCream
+                                    <input class="quantity-input" id="cookiesAndCream-amount" type="number" name="quantity" placeholder="How many?" min="0" max="20">
+                                <br>
+                                    rainbowUnicode
+                                    <input class="quantity-input" id="rainbowUnicode-amount" type="number" name="quantity" placeholder="How many?" min="0" max="20">
+                                <br>
+                                <button class="btn btn-secondary" id="submit">Submit</button>
+                            </form>
+                        </div>
+                            <div class="order-receipt">
+                                <h4>Your Order</h4>
+                                <h3 id="customer-name"></h3>
+                                <h2 id="vanillaJava-total"></h2>
+                                <h2 id="caramelCase-total"></h2>
+                                <h2 id="cookiesAndCream-total"></h2>
+                                <h2 id="rainbowUnicode-total"></h2>
+                                <h1 id="total"></h1>
+                            </div>
+
+
+
                 </div>
             </div>
             <button type="button" class="btn btn-default">ORDER</button>
