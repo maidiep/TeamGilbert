@@ -25,41 +25,35 @@
 
 <body>
 
+    <!-- navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                    aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">AJAK'S BAKE SHOP</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
+                <a class="navbar-brand" href="index.html">HOME</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Menu/PreOrder</a>
-                    </li>
-                    <li>
-                        <a href="instafeed.html">InstaFeed</a>
-                    </li>
+                  <li><a href="menu.html">MENU</a></li>
+                  <li><a href="instafeed.html">INSTAFEED</a></li>
+                  <li><a href="order.html">CUSTOM ORDER</a></li>
+                  
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                        <li><a href="subscribe.html">Subscribe</a></li>
-                      </ul>
+                  <li><a href="subscribe.html">SUBSCRIBE</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
             </div>
-            <!--/.nav-collapse -->
-        </div>
-    </nav>
+          </nav>
 
-    <div id="box2">
+    <div id="box1">
         <div class="content">
-            <h1 id="banner">PREORDER MENU</h1>
+            <h1 id="banner">CUSTOM ORDER</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -106,40 +100,43 @@
                                 <input id="email-input" type="text" name="name" placeholder="Email...">
                                 <br><br>
                                     vanillaJava
-                                    <input class="quantity-input" id="vanillaJava-amount" type="number" name="quantity" placeholder="How many?" min="0" max="20">
+                                    <input class="quantity-input" id="vanillaJava-amount" type="number" name="quantity" placeholder="Quantity" min="0" max="20">
                                 <br>
                                     caramelCase
-                                    <input class="quantity-input" id="caramelCase-amount" type="number" name="quantity" placeholder="How many?" min="0" max="20">
+                                    <input class="quantity-input" id="caramelCase-amount" type="number" name="quantity" placeholder="Quantity" min="0" max="20">
                                 <br>
                                     cookiesAndCream
-                                    <input class="quantity-input" id="cookiesAndCream-amount" type="number" name="quantity" placeholder="How many?" min="0" max="20">
+                                    <input class="quantity-input" id="cookiesAndCream-amount" type="number" name="quantity" placeholder="Quantity" min="0" max="20">
                                 <br>
                                     rainbowUnicode
-                                    <input class="quantity-input" id="rainbowUnicode-amount" type="number" name="quantity" placeholder="How many?" min="0" max="20">
+                                    <input class="quantity-input" id="rainbowUnicode-amount" type="number" name="quantity" placeholder="Quantity" min="0" max="20">
                                 <br>
                                 <button class="btn btn-secondary" id="submit">Submit</button>
                             </form>
+
+
                         </div>
+                        <button type="button" class="btn btn-default">ORDER</button>
+
                             <div class="order-receipt">
                                 <h4>Your Order</h4>
                                 <h3 id="customer-name"></h3>
                                 <h3 id="email"></h3>
-                                <h2 id="vanillaJava-total"></h2>
-                                <h2 id="caramelCase-total"></h2>
-                                <h2 id="cookiesAndCream-total"></h2>
-                                <h2 id="rainbowUnicode-total"></h2>
-                                <h1 id="total"></h1>
+                                <h3 id="vanillaJava-total"></h3>
+                                <h3 id="caramelCase-total"></h3>
+                                <h3 id="cookiesAndCream-total"></h3>
+                                <h3 id="rainbowUnicode-total"></h3>
+                                <h4 id="total"></h4>
                             </div>
 
 
 
                 </div>
             </div>
-            <button type="button" class="btn btn-default">ORDER</button>
 
         </div>
     </div>
-
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
 <script src = "./gallery.js"></script>
 </body>
 
