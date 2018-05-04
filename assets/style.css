@@ -221,6 +221,15 @@ a {
     background-attachment: fixed;
 }
 
+#boxc {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/tin.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
 #menu-border {
     background-color:rgb(162,205,184, .6);
 }
