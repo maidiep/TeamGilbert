@@ -59,7 +59,7 @@
  function displayItemGif() {
 
    var item = $(this).attr("data-name");
-   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + item + "&api_key=H8A80HuaNbDokHUJ6pYNl7HnLiHB711M&limit=10";
+   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + item + "&api_key=H8A80HuaNbDokHUJ6pYNl7HnLiHB711M&limit=5";
 
    $.ajax({
      url: queryURL,
