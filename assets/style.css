@@ -247,3 +247,15 @@ button.item.btn.btn-default{
     margin: 5px;
   
  }
+
+ /* .gif {
+     width: 300px;
+     height: 300px;
+     padding: 1em;
+ } */
+
+ .gifs-appear-here {
+    display: grid;
+    grid-template-columns: 2fr, 2fr, 2fr;
+    grid-gap: 1em;
+ }
