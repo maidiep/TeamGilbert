@@ -1,50 +1,52 @@
-
-$(document).ready(function () {
-    $(".form").show();
-     $("#thankyou").hide();
-  });
+$(document).ready(function() {
+  $(".form").show();
+  $("#thankyou").hide();
+});
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyB9Bbini1xCoCSVVCFe8IiibqekOJZ3eNI",
-    authDomain: "teamprojectone-30a82.firebaseapp.com",
-    databaseURL
-: "https://teamprojectone-30a82.firebaseio.com",
-    projectId: "teamprojectone-30a82",
-    storageBucket: "teamprojectone-30a82.appspot.com",
-    messagingSenderId: "982341792660"
-  };
-  firebase.initializeApp(config);
+  apiKey: "AIzaSyB9Bbini1xCoCSVVCFe8IiibqekOJZ3eNI",
+  authDomain: "teamprojectone-30a82.firebaseapp.com",
+  databaseURL: "https://teamprojectone-30a82.firebaseio.com",
+  projectId: "teamprojectone-30a82",
+  storageBucket: "teamprojectone-30a82.appspot.com",
+  messagingSenderId: "982341792660"
+};
+firebase.initializeApp(config);
 
-  var database = firebase.database();
+var database = firebase.database();
 
-  //button for adding user subscription
-  $("#add-user").on("click", function(event) {
-      event.preventDefault();
-       
+//button for adding user subscription
+$("#add-user").on("click", function(event) {
+  event.preventDefault();
 
-    // gets user input from input box
-    var userFirst = $("#first-name-input").val().trim();
-    var userLast = $("#last-name-input").val().trim();
-    var userEmail = $("#email-input").val().trim();
+  // gets user input from input box
+  var userFirst = $("#first-name-input")
+    .val()
+    .trim();
+  var userLast = $("#last-name-input")
+    .val()
+    .trim();
+  var userEmail = $("#email-input")
+    .val()
+    .trim();
 
-    if (userFirst=="") {
-        document.getElementById("first-name-input").style.background="#ecdeb5";
-    }
+  if (userFirst == "") {
+    document.getElementById("first-name-input").style.background = "#ecdeb5";
+  }
 
-    if (userLast=="") {
-        document.getElementById("last-name-input").style.background="#ecdeb5";
-    }
+  if (userLast == "") {
+    document.getElementById("last-name-input").style.background = "#ecdeb5";
+  }
 
-    if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(userEmail))) {
-        document.getElementById("email-input").style.background="#ecdeb5";
-    } else {
-
+  if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(userEmail)) {
+    document.getElementById("email-input").style.background = "#ecdeb5";
+  } else {
     // creates local temporary object for holding data
     var newUser = {
-        firstname: userFirst,
-        lastname: userLast,
-        email: userEmail,
+      firstname: userFirst,
+      lastname: userLast,
+      email: userEmail
     };
 
     // uploads user to database
@@ -63,10 +65,5 @@ var config = {
     // send user to homepage
     $(".form").hide();
     $("#thankyou").show();
-
-    }
-
-
-  });
-
- 
+  }
+});

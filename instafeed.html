@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,73 +9,75 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
     <script type="text/javascript" src="./instafeed.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">    </head>
-    <script
-    src="http://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet"> </head>
+<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
 
-       <!-- Latest compiled and minified CSS -->
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-       <!-- Optional theme -->
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-   
-       <!-- Latest compiled and minified JavaScript -->
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  
-    <script type="text/javascript">
-        var feed = new Instafeed({
-            get: 'tagged',
-            tagName: 'ajaks',
-            accessToken: '7640104708.a669768.355515f5a5984477a898ce3e23e202bb'
-        });
-        feed.run();
-    </script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'ajaks',
+        accessToken: '7640104708.a669768.355515f5a5984477a898ce3e23e202bb'
+    });
+    feed.run();
+</script>
 
 </head>
 
-   
+
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                    <ul class="nav navbar-nav">
-                            <li>
-                                    <a href="index.html">HOME</a>
-                                </li>
-                        <li>
-                            <a href="menu.html">MENU</a>
-                        </li>
-                        <li>
-                            <a href="#">INSTAFEED</a>
-                        </li>
-                        <li>
-                            <a href="order.html">PREORDER</a>
-                        </li>
-                        <li>
-                                <a href="subscribe.html">SUBSCRIBE</a>
-                            </li>
-                    </ul>
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="menu.html">MENU</a>
+                </li>
+                <li>
+                    <a href="#">INSTAFEED</a>
+                </li>
+                <li>
+                    <a href="order.html">PREORDER</a>
+                </li>
+                <li>
+                    <a href="subscribe.html">SUBSCRIBE</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+
+    <div id="box1">
+        <div class="content">
+            <h1 id="banner">INSTAGRAM FEED</h1>
+            <div id="wrapper">
+                <div id="insta-wrap">
+                    <div id="instafeed"></div>
+                </div>
+
             </div>
-        </nav>
-        <br><br>
+        </div>
+    </div>
 
 
-        <div id="box1">
-                <div class="content">
-                <h1 id="banner">INSTAGRAM FEED</h1>
-                <div id="wrapper">
-                        <div id="insta-wrap">
-                            <div id="instafeed"></div>
-                        </div>
-                
-                    </div>  
-                </div>
-                </div>
 
- 
-    
-    
+
 </body>
+
 </html>

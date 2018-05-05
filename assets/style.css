@@ -1,269 +1,257 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
-    font-family: 'Lilita One', cursive;
-    margin: 0;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+  font-family: "Lilita One", cursive;
+  margin: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 h1 {
-    font-size: 60px !important;
-    text-align: center;
-    color: white !important;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
+  font-size: 60px !important;
+  text-align: center;
+  color: white !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 
 h1#banner {
-    font-family: 'Lilita One', cursive;
-    font-size: 60px !important;
-    text-align: center;
-    color: black !important; 
+  font-family: "Lilita One", cursive;
+  font-size: 60px !important;
+  text-align: center;
+  color: black !important;
 }
 
-
 p {
-    font-family: 'roboto', sans-serif;
-    font-size: 40px !important;
-    text-align: center;
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
+  font-family: "roboto", sans-serif;
+  font-size: 40px !important;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 
 h4 {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 
 a {
-    font-family: 'Caveat', cursive;
-    font-size: 24px;
+  font-family: "Caveat", cursive;
+  font-size: 24px;
 }
- 
+
 #scroll {
-    color: black;
+  color: black;
 }
 
 #map {
-   height: 500px;
-   width: 800px;
-   margin: auto;
-   border: solid black;
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  border: solid black;
 }
 
-
 #box2 {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../assets/images/plainlogo.png);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/plainlogo.png);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
 #box3 {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../assets/images/friends.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/friends.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
 #box4 {
-    height: 100vh;
-    width: 100%;
-    background-image: url("../assets/images/cupcake1.JPG");
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/images/cupcake1.JPG");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
 #box5 {
-    height: 100vh;
-    width: 100%;
-     background-image: url(../assets/images/chocolate.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/chocolate.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
- #insta-wrap img {
-     border: solid black;
-     margin: 5px;
- }
+#insta-wrap img {
+  border: solid black;
+  margin: 5px;
+}
 
- #instafeed {
-     max-width: 900px;
-     margin: auto;
- }
+#instafeed {
+  max-width: 900px;
+  margin: auto;
+}
 
 #box1 {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../assets/images/plainlogo.png);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/plainlogo.png);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
 .thumbnail {
-    border: solid black;
+  border: solid black;
 }
 
 .subscribePage {
-    background-image: url(../assets/images/plainlogo.png);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+  background-image: url(../assets/images/plainlogo.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .subscribe {
-    width: 360px;
-    padding: 10% 0 0;
-    margin: auto;
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
 }
 
 .form {
-    position: relative;
-    z-index: 1;
-    background: lightgrey;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
+  position: relative;
+  z-index: 1;
+  background: lightgrey;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
 }
 
 .form input {
-    outline: 1;
-    background:white;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
+  outline: 1;
+  background: white;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 .form button {
-    text-transform: uppercase;
-    outline: 0;
-    background:#ec6eae;
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    color: white;
-    font-size: 14px;
-    cursor: pointer;
+  text-transform: uppercase;
+  outline: 0;
+  background: #ec6eae;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.form button:hover,.form button:active {
-    background: black;
+.form button:hover,
+.form button:active {
+  background: black;
 }
 
 .message {
-    padding-top: 175px;
+  padding-top: 175px;
 }
 
 /* GALLERY FORM CONTROLS */
 .form-box {
-    text-align: center;
-    /* position: relative; */
-    margin: 20px;
-    top: 53%;
-    right: 36%;
-    width: 40%;
-    display: none;
-    padding: 20px;
+  text-align: center;
+  /* position: relative; */
+  margin: 20px;
+  top: 53%;
+  right: 36%;
+  width: 40%;
+  display: none;
+  padding: 20px;
 }
 .quantity-input {
-    margin: 20px;
+  margin: 20px;
 }
 .order-receipt {
-    height: 400px;
-    padding: 20px;
-    width: 60%;
-    background-color: lightgrey;
-    float: right;
-    position: relative;
-    bottom: 51.5em;
-    opacity: 0;
+  height: 400px;
+  padding: 20px;
+  width: 60%;
+  background-color: lightgrey;
+  float: right;
+  position: relative;
+  bottom: 51.5em;
+  opacity: 0;
 }
 
 /* menu */
 #boxa {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../assets/images/whisk.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/whisk.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
 #boxb {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../assets/images/cookiecutter.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/cookiecutter.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
 #boxc {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../assets/images/tin.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/tin.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
 #menu-border {
-    background-color:rgb(162,205,184, .6);
+  background-color: rgb(162, 205, 184, 0.6);
 }
 
-#box6{
-    height: 100vh;
-    width: 100%;
-    background-image: url(../assets/images/3.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
+#box6 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/3.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
 
-button.item.btn.btn-default{
-    margin: 5px;
-  
- }
+button.item.btn.btn-default {
+  margin: 5px;
+}
 
+.gifs-appear-here {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 1em;
+}
 
- .gifs-appear-here {
-    display: grid;
-    grid-auto-flow: row;
-    grid-gap: 1em;
- }
+.order-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  grid-gap: 1em;
+}
 
- .order-wrapper {
-     display: grid;
-     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
-     justify-items: center;
-     grid-gap: 1em;
- }
-
- .custom img {
-     /* display: block;
-     box-shadow: -1px 0px 0px rgba0(0,0,0,0, .6); */
-     width: 100px;
- }
+.custom {
+  width: 100%;
+}

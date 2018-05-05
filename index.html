@@ -19,136 +19,145 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
-    </head>
+</head>
 
 <body>
-    
+
     <!-- navbar -->
- <!-- navbar -->
- <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                        <li>
-                                <a class="active" href="#">HOME</a>
-                            </li>
-                    <li>
-                        <a class="active" href="menu.html">MENU</a>
-                    </li>
-                    <li>
-                        <a href="instafeed.html">INSTAFEED</a>
-                    </li>
-                    <li>
-                        <a href="order.html">PREORDER</a>
-                    </li>
-                    <li>
-                            <a href="subscribe.html">SUBSCRIBE</a>
-                        </li>
-                </ul>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a class="active" href="#">HOME</a>
+                </li>
+                <li>
+                    <a class="active" href="menu.html">MENU</a>
+                </li>
+                <li>
+                    <a href="instafeed.html">INSTAFEED</a>
+                </li>
+                <li>
+                    <a href="order.html">PREORDER</a>
+                </li>
+                <li>
+                    <a href="subscribe.html">SUBSCRIBE</a>
+                </li>
+            </ul>
         </div>
     </nav>
-    <br> <br> <br>
+    <br>
+    <br>
+    <br>
 
-         <!-- Banner/Logo -->
-         
-         <div id="box2">
-                
-                <div class="content">
-                        <small id="scroll">Scroll Down &#8675;</small>
-                <h1 id="banner">WELCOME TO <br> AJAK'S BAKE SHOP</h1>
-                    
-                </div>
-                </div>
+    <!-- Banner/Logo -->
 
+    <div id="box2">
 
-        <!-- About Us -->
-        <div id="box3">
-                <div class="content">
-                <h1>ABOUT US</h1>
-                <p>Own and operated by four friends: AJ, Jessica, Adam and Kacie. <br>
-                    They met during a coding bootcamp. <br>What started out as a group project <br> turned into a successful business venture.</p>
-                </div>
-                </div>
-
-
-        <!-- Google Calendar -->
-        <div id="box4">
-                <div class="content">
-                        <h1>ADD US TO YOUR CALENDAR</h1><br>
-                <div id="divifm" >
-                        <iframe src="https://calendar.google.com/calendar/embed?title=Location%20Schedule&amp;showPrint=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=e92tdjg4rf053q68upvbcqbrcc%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York" 
-                        style="border: solid black" width="800" height="500" frameborder="0" scrolling="no"></iframe>
-                </div>
-            </div>
-            </div>
-
-
-        <!-- Google Map -->
-        <div id = "box5">
-            <div class="content">
-                    <h1>SEE YOU SOON</h1><br>
-                    <div id ="map">
-                  </div>
-            </div>
-           
-                </div>
-
-        <script>
-                function initMap() {
-                    // Map options
-                    var options = {
-                        zoom:12,
-                        center:{lat:35.2271,lng:-80.8431}
-                    }
-                    // New map
-                    var map = new
-                    google.maps.Map(document.getElementById("map"), options);
-                    // Add marker
-                    var marker = new google.maps.Marker({
-                        position:{lat:35.228460,lng:-80.835088},
-                        map:map
-                    });
-                    var infoWindow = new google.maps.InfoWindow({
-                        content:"<h2>AJAK's Bake Shop</h2>"
-                    });
-                    marker.addListener("click", function(){
-                        infoWindow.open(map, marker);
-                    });
-                }
-            </script>
-            <script asynch defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLX57733jcvaZ-j-1_wZjPzMRhw01zQqY&callback=initMap">
-            </script>
-
-
-<div id="box6">
         <div class="content">
-        <h1 id="banner">GIFS FOR FUN</h1>
-        <br> <br>
-        <div>
+            <small id="scroll">Scroll Down &#8675;</small>
+            <h1 id="banner">WELCOME TO
+                <br> AJAK'S BAKE SHOP</h1>
+
+        </div>
+    </div>
+
+
+    <!-- About Us -->
+    <div id="box3">
+        <div class="content">
+            <h1>ABOUT US</h1>
+            <p>Own and operated by four friends: AJ, Jessica, Adam and Kacie.
+                <br> They met during a coding bootcamp.
+                <br>What started out as a group project
+                <br> turned into a successful business venture.</p>
+        </div>
+    </div>
+
+
+    <!-- Google Calendar -->
+    <div id="box4">
+        <div class="content">
+            <h1>ADD US TO YOUR CALENDAR</h1>
+            <br>
+            <div id="divifm">
+                <iframe src="https://calendar.google.com/calendar/embed?title=Location%20Schedule&amp;showPrint=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=e92tdjg4rf053q68upvbcqbrcc%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York"
+                    style="border: solid black" width="800" height="500" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Google Map -->
+    <div id="box5">
+        <div class="content">
+            <h1>SEE YOU SOON</h1>
+            <br>
+            <div id="map">
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function initMap() {
+            // Map options
+            var options = {
+                zoom: 12,
+                center: { lat: 35.2271, lng: -80.8431 }
+            }
+            // New map
+            var map = new
+                google.maps.Map(document.getElementById("map"), options);
+            // Add marker
+            var marker = new google.maps.Marker({
+                position: { lat: 35.228460, lng: -80.835088 },
+                map: map
+            });
+            var infoWindow = new google.maps.InfoWindow({
+                content: "<h2>AJAK's Bake Shop</h2>"
+            });
+            marker.addListener("click", function () {
+                infoWindow.open(map, marker);
+            });
+        }
+    </script>
+    <script asynch defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLX57733jcvaZ-j-1_wZjPzMRhw01zQqY&callback=initMap">
+    </script>
+
+
+    <div id="box6">
+        <div class="content">
+            <h1 id="banner">GIFS FOR FUN</h1>
+            <br>
+            <br>
+            <div>
                 <!-- Items will get dumped here -->
 
                 <div id="items-view"></div>
                 <h4>Enter a dessert then click the Add button. </h4>
-            
-                <form id="item-form">
-                  <label for="item-input">DESSERT</label>
-                  <input type="text" id="item-input"><br><br>
 
-            
-                  <!-- Button triggers new movie to be added -->
-                  <input class="btn btn-default" id="add-item" type="submit" value="ADD">
+                <form id="item-form">
+                    <label for="item-input">DESSERT</label>
+                    <input type="text" id="item-input">
+                    <br>
+                    <br>
+
+
+                    <!-- Button triggers new movie to be added -->
+                    <input class="btn btn-default" id="add-item" type="submit" value="ADD">
                 </form>
                 <div class="wrapper" id="gifs-appear-here"></div>
             </div>
         </div>
-      
-        </div>
-    
-  
+
+    </div>
+
+
 
     <script src="./gif.js"></script>
 </body>
