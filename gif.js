@@ -77,7 +77,7 @@ function displayItemGif() {
         var rating = results[i].rating;
 
         // Creating a paragraph tag with the result item's rating
-        var p = $("<p>").text("Rating: " + rating);
+        var p = $("<h4>").text("Rating: " + rating);
 
         // Creating an image tag
         var itemImage = $("<img>");
