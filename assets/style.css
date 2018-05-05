@@ -180,7 +180,7 @@ a {
 /* GALLERY FORM CONTROLS */
 .form-box {
     text-align: center;
-    position: relative;
+    /* position: relative; */
     margin: 20px;
     top: 53%;
     right: 36%;
